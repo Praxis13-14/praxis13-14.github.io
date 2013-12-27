@@ -6,25 +6,21 @@ title, h1{text-align: center;}
 
 <html>
 <head>
-	<title>Homework</title>
+	<title>Praxis New Year</title>
 </head>
 <body>
-	<h1>My Homework</h1>
-	<h2>Homework Week #1</h2>
-	<p><?php echo 'Is dinosaur free';?></p>
+	<h1>Happy New Year!!!</h1>
+	<p><?php echo 'Happy New Year!!!';?></p>
 </hr>
-	<p><?php echo 42+3;?></p>
-	<?php $address="114 Observatory" ;?>
-	<p><?php echo $address;?></p>
+	<p><?php echo 2013+1;?></p>
 </hr>	
 	<ul>
 		<?php 
-		$authors = array(
-		'1870' => 'Charles Dickens', 
-		'1863' => 'William Thackeray', 
-		'1882' => 'Anthony Trollope', 
-		'1889' => 'Gerard Manley Hopkins'
+		$resolutions = array(
+		'January' => 'learn to cook', 
+		'February' => 'exercise more to burn off food calories', 
+		'March' => 'take surplus cooking to friends and make them happy', 
 		);
-	foreach ($authors as $year => $author):
-		?><li><?php echo "$author died in $year."?></li> <?php endforeach;?>
+	foreach ($resolutions as $month => $resolution):
+		?><li><?php echo "In $month I will $resolution."?></li> <?php endforeach;?>
 	</ul>
